@@ -1,0 +1,13 @@
+.profile-container {
+    width: 100%;
+    // padding: 5%;
+    padding-top: 10%;
+    font-weight: 500;
+
+    .profile-container--tabs {
+        width: 100%;
+        .profile-container--tabs--tab {
+            font-size: 1.25rem;
+        }
+    }
+}

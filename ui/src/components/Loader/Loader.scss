@@ -1,0 +1,12 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    overflow: hidden;
+    z-index: 10;
+    .text {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}

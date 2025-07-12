@@ -1,0 +1,39 @@
+@import 'react-slideshow-image/dist/styles.css';
+
+.slide-container {
+    padding: 5%;
+
+    .each-slide-effect {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .each-slide-effect--image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.Data-contaier {
+    padding-right: 5%;
+}
+
+.Buttons-Container {
+    display: flex;
+    flex-direction: row;
+    padding-right: 3%;
+
+    .AddToCart {
+        font-size: 1.25rem;
+        text-align: center;
+        display: inline-block;
+        border-radius: 1rem;
+
+        color: white;
+    }
+}
+
+.p-information {
+    padding: 2%;
+    font-size: 1.25rem;
+}

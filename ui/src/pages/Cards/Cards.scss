@@ -1,0 +1,9 @@
+.container {
+    padding: 3%;
+
+    .cards-list {
+        display: grid;
+        grid-template: 1fr 1fr/ 1fr 1fr;
+        gap: 4% 2%;
+    }
+}

@@ -1,0 +1,35 @@
+.Home-header {
+    .Home-header--image-container {
+        cursor: pointer;
+        .Home-header--image {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.Home-body {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    padding: 3%;
+    padding-top: 8vh;
+    gap: 1% 4%;
+}
+
+.Home-body--image {
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+}
+.Home-body2 {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    padding-top: 5vh;
+    row-gap: 3vh;
+    // display: grid;
+    // grid-template: 1fr 1fr / 1fr 1fr;
+    // padding: 3%;
+    // padding-top: 8vh;
+    // gap: 1% 4%;
+}
